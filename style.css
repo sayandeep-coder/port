@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+.navbar {
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.nav-logo-border {
+    height: 150px;
+    width: 800px;
+    position: relative;
+    top: 30px;
+    left: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-image: url("./lap.png");
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    
+}
+
+a {
+    position: relative;
+    left: 600px;
+    top: 15px;
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: #5e9ed7;
+    color: black;
+    border-radius: 25px;
+    padding-top: 5px;
+}
+
+.a:hover {
+    transform: rotate(90deg);
+}
+.hero-sec {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(240, 248, 255), rgb(83, 212, 255));
+    color: black;
+}
+
+.text {
+    height: 400px;
+    width: 620px;
+    position: relative;
+}
+
+.img {
+    height: 530px;
+    width: 700px;
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.img-myself {
+    background-image: url("./sayan-removebg-preview.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 190px;
+}
+
+.img-sec {
+    height: 530px;
+    width: 700px;
+    background-image: url("pic.png");
+    background-size: cover;
+}
+
+.social-media {
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    right: 360px;
+}
+
+.eduction-border {
+    height: 350px;
+}
+
+.edu-title {
+    height: 50px;
+    background: linear-gradient(to right, rgb(240, 248, 255), rgb(248, 173, 173));
+    text-align: center;
+    font-size: 2em;
+}
+
+.info {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seconday {
+    height: 200px;
+    width: 350px;
+}
+
+.higher-sec {
+    height: 200px;
+    width: 350px;
+}
+
+.btech {
+    height: 200px;
+    width: 350px;
+}
+
+.skills {
+    height: 600px;
+}
+
+.skill-text {
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(to right, rgb(240, 248, 255), rgb(83, 212, 255));
+}
+
+.skills-box {
+    height: 440px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    position: relative;
+    left: 150px;
+}
+
+.html {
+    height: 250px;
+    width: 250px;
+    background-image: url("../project/Project_files/html5-logo.png");
+    background-size: cover;
+}
+.css {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    right: 25px;
+    background-image: url("./OIP-removebg-preview\ \(1\).png");
+    background-size: cover;
+}
+.js {
+    height: 250px;
+    width: 250px;
+    
+    background-image: url("../project/Project_files/js-logo.png");
+    background-size: cover;
+}
+.c {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+    background-image: url("../project/Project_files/c-logo.png");
+    background-size: cover;
+}
+.bootstrap {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+    background-image: url("./Project_files/bootstrap-logo.png");
+    background-size: cover;
+}
+.python {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 50px;
+    background-image: url("./python.png");
+    background-size: cover;
+}
+
+.contact {
+    height: 450px;
+    background: linear-gradient(to right, rgb(240, 248, 255), rgb(83, 212, 255));
+}
+
+.con-box {
+    height: 500px;
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con-img  {
+    height: 500px;
+    width: 500px;
+    background-image: url("./mob.png");
+    background-size: cover;
+    position: relative;
+    bottom: 120px;
+}
+
+.con-text {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 10px;
+}
+
+.foot {
+    height: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.amimation > .welcome {
+    position: relative;
+    right: 60px;
+    width: 40ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(30) infinite alternate-reverse; 
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+}
