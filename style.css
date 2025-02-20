@@ -167,7 +167,7 @@ h3 {
 .html {
     height: 250px;
     width: 250px;
-    background-image: url("../project/Project_files/html5-logo.png");
+    background-image: url("html5-logo.png");
     background-size: cover;
 }
 .css {
